@@ -1,0 +1,266 @@
+
+/* Estilos */
+
+/*Estilos Header */
+header{
+	background-color: #1C1821;
+}
+nav a{
+	display: inline-block;
+	float: right;
+	color:white;
+	padding: 6% 0% 0% 3%;
+	text-decoration: none;
+	font-size: 90%;
+	font-style: italic;
+	font-family: Arial;
+}
+a:hover{
+	color: #F7BA6A; 
+}
+div img{
+	width: 90%;
+}
+.row-encabezado, .contenido, .fng, .abm{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fa-bars{
+	font-size: 200%;
+	display: none;
+	color: white;
+}
+/* Estilos spring came*/
+section{
+	background-color: #2D2735;
+	padding-bottom: 4%;
+}
+h2{
+	font-size:560%; 
+	margin: 0px;
+	padding: 6% 5% 2% 5%;
+	color: #F7BA6A;
+	font-family: Courgette;
+}
+.sp-ca{
+	padding-top: 3%;
+}
+.contenido{
+	width: 80%;
+	background-image: url("../image/header-image.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+	padding: 6% 0%;
+}
+.spring-came{
+	width: 75%;
+	background-color: #1C1821;
+	color:white;
+	padding-bottom: 3%;
+	margin-left: auto;
+	margin-right: auto;
+}
+section div div div a{
+	text-decoration: none;
+	padding: 0% 2%;
+	color: white;
+	font-size: 105%;
+	font-family: Arial;
+	font-style: italic;
+}
+/* 3 columnas de flores */
+.galeria img{
+	width: 100%;
+}
+.fng{
+	padding-top: 4%;
+	box-sizing: border-box;
+}
+.galeria{
+	box-sizing: border-box;
+	text-align: center;
+}
+.bg{
+	background-color: #1C1821;
+	padding-bottom: 6%;
+}
+.uno{
+	padding-right: 1%;
+}
+.dos{
+	padding: 0% 0.5% 0% 0.5%;
+}
+.tres{
+	padding-left: 1%;
+}
+.galeria h2{
+	font-size: 140%;
+	text-align: center;
+}
+.galeria a{
+	padding: 0% 1%;
+}
+/* Video*/
+.abm{
+	padding-top: 3%;
+}
+.bg-2 a{
+	padding: 0% 0.5%;
+}
+.bg-2{
+	background-color: #1C1821;
+	text-decoration: none;
+	padding-bottom: 4%;
+	color: white;
+	font-size: 105%;
+	font-family: Arial;
+	text-align: center;
+}
+.bgi-1{
+	width: 100%;
+}
+.title-3{
+	font-size: 140%;
+	text-align: center;
+}
+p{
+	color: white;
+	font-family: arial;
+	text-align: left;
+	padding-left: 4%;
+	padding-right: 5%;
+}
+/* Boton*/
+.bg-3{
+	padding-left: 1.5%;
+	box-sizing: border-box;
+}
+form{
+	background-color: #1C1821;
+	padding: 7%;
+	border-radius: 7px;
+}
+#input-search{
+	width: 100%;
+	height: 40px;
+	background-color: #2D2735;
+	border: 2px solid  #2D2735;
+	color:white;
+	border-radius: 5px;
+	font-size: 120%;
+	text-indent: 0.5cm;
+}
+.amanda{
+	background-color: #1C1821;
+	margin-top: 3%;
+	padding-bottom: 4%;
+}
+.title-2{
+	font-size:120%; 
+	padding: 0% 0% 3% 0%;
+	color: #F7BA6A;
+	text-align: center;
+	font-family: Courgette;
+}
+h3{
+	text-align: center;
+	color: white;
+	font-family: arial;
+}
+.icono{
+	background-color: #2D2735;
+	padding: 2%;
+	border-radius: 100%;
+	margin: 0% 1.5%;
+	color: white;
+}
+.amanda div :hover {
+	transition: all 1s ease;
+	background-color: white;
+	color: black;
+}
+/* footer*/
+footer{
+	background-color: #1C1821;
+}
+.pie-pagina{
+	margin: 0%;
+	padding: 4% 0%;
+	text-align: center;
+}
+.pie-pagina a{
+	color: gray;
+	opacity: 0.1;
+	text-decoration: none;
+}
+.list-icon{
+	width: 100%;
+	padding:4% 0% 4% 3%;
+}
+
+
+/* Inserta tu codigo aqui */
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+	body{
+		padding: 0px;
+    	margin: 0px;
+    	box-sizing: border-box;
+	}
+	/*Header*/
+	.container{
+		width: 95%;
+	}
+	.row-encabezado{
+		width: 80%;
+	}
+	#logo{
+		width: 50%;
+	}
+	#menu{
+		width: 300%;
+		padding: 9% 0% 0% 9%;
+		box-sizing: border-box;
+	}
+	.fa-bars{
+		color: white;
+		display: block;
+		font-size: 35%;
+		display: block;
+		float: left;
+	}
+	.navegador{
+		display: none;
+	}
+		
+}
+	/*Body*/
+	section div.sp-ca{
+		overflow: hidden;
+	}
+	.contenido{
+		width: 80%;
+		overflow: hidden;
+		padding: 4%;
+	}
+	h2{
+		font-size: 540%;
+	}
+	.spring-came{
+		width: 100%;
+	}
+	section div div div a{
+		font-size: 90%;
+	}
+	
+}
+
+
